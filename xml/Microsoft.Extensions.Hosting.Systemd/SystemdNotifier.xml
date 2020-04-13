@@ -1,4 +1,4 @@
-<Type Name="SystemdNotifier" FullName="Microsoft.Extensions.Hosting.Systemd.SystemdNotifier">
+﻿<Type Name="SystemdNotifier" FullName="Microsoft.Extensions.Hosting.Systemd.SystemdNotifier">
   <TypeSignature Language="C#" Value="public class SystemdNotifier : Microsoft.Extensions.Hosting.Systemd.ISystemdNotifier" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SystemdNotifier extends System.Object implements class Microsoft.Extensions.Hosting.Systemd.ISystemdNotifier" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.Hosting.Systemd.SystemdNotifier" />
@@ -61,7 +61,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Returns whether systemd is configured to receive service notifications.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
@@ -91,7 +91,7 @@
       </Parameters>
       <Docs>
         <param name="state">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Sends a notification to systemd.</summary>
         <remarks>To be added.</remarks>
         <inheritdoc />
       </Docs>

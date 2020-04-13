@@ -1,4 +1,4 @@
-<Type Name="FakeDisposableCallbackService" FullName="Microsoft.Extensions.DependencyInjection.Specification.Fakes.FakeDisposableCallbackService">
+﻿<Type Name="FakeDisposableCallbackService" FullName="Microsoft.Extensions.DependencyInjection.Specification.Fakes.FakeDisposableCallbackService">
   <TypeSignature Language="C#" Value="public class FakeDisposableCallbackService : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FakeDisposableCallbackService extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.DependencyInjection.Specification.Fakes.FakeDisposableCallbackService" />
@@ -66,7 +66,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
